@@ -1,0 +1,40 @@
+/* styles.css */
+
+.sidebar {
+    width: 200px;
+    float: left;
+    margin-left: 10px;
+}
+
+.sidebar ul {
+    list-style-type: square;
+    padding: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+
+}
+
+.sidebar ul li {
+    padding: 10px;
+}
+
+.sidebar ul .dropdown-menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li:hover .dropdown-menu {
+    display: block;
+}
+
+.breadcrumb {
+    background: #b1a251;
+    padding: 10px;
+}
+
+.breadcrumb li {
+    display: inline;
+    margin-right: 0;
+}
